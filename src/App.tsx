@@ -9,7 +9,7 @@ import { ArrowRight, Menu, X, Shield, FileText, Mail, MessageCircle } from "luci
 import AnimatedAvatar from "./components/Avatar";
 
 export default function App() {
-  const WHATSAPP_LINK = "https://chat.whatsapp.com/L049icJYKqdFZD0qiVBJ7A";
+  const WHATSAPP_LINK = "https://chat.whatsapp.com/JxM7bkMzhaiBZ9FNird96i";
   const [modalContent, setModalContent] = useState<{ title: string; content: React.ReactNode } | null>(null);
 
   const handleJoin = () => {
